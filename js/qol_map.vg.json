@@ -8,29 +8,46 @@
         "url": "https://raw.githubusercontent.com/jber0020/QOLIndex/main/data/ne_110m.topojson",
         "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
       },
-      "transform": [
-        {
-          "lookup": "properties.NAME",
-          "from": {
-            "data": {
-              "url": "https://raw.githubusercontent.com/jber0020/QOLIndex/main/data/countries_quality_of_life_index.18-10-2021.csv"
-            },
-            "key": "Name",
-            "fields": ["QualityOfLifeIndex"]
+    "layer":[
+      {
+        "transform": [
+          {"calculate": "'Data is not available in ' + datum.properties.NAME", "as": "note"}
+        ],
+        "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"},
+        "encoding": {
+          "tooltip": {
+          "field": "note"
+            }
           }
         },
-        {"calculate": "datum.QualityOfLifeIndex + 0.001", "as": "Quality of Life Index"}
-      ],
-      "mark": {"type": "geoshape"},
-      "encoding": {
-        "color": {
-          "field": "Quality of Life Index",
-          "type": "quantitative",
-          "scale": {"type": "linear"}
-        },
-        "tooltip": [
-          {"field": "properties.NAME", "type": "nominal", "title": "Country"},
-          {"field": "QualityOfLifeIndex", "type": "quantitative"}
-        ]
-      }
+        {
+          "transform": [
+            {
+              "lookup": "properties.NAME",
+              "from": {
+                "data": {
+                  "url": "https://raw.githubusercontent.com/jber0020/QOLIndex/main/data/countries_quality_of_life_index.18-10-2021.csv"
+                },
+                "key": "Country",
+                "fields": ["QualityOfLifeIndex"]
+              }
+            }
+          ],
+          "mark": {"type": "geoshape", "stroke": "white"},
+          "encoding": {
+            "color": {
+              "field": "QualityOfLifeIndex",
+              "type": "quantitative",
+              "scale": {
+                "type": "linear"
+              }
+            },
+            "tooltip": [
+              {"field": "properties.NAME", "type": "nominal", "title": "Country"},
+              {"field": "QualityOfLifeIndex", "type": "quantitative"}
+            ]
+          }
+        }
+      ]
+      
     }
