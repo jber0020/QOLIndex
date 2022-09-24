@@ -5,7 +5,7 @@ Norway,KongeriketNorge,173.1581662
 Ireland,Eire,153.1821907
 Hungary,Magyarorszag,135.3439369
 Spain,Espana,165.0911382
-UnitedStatesofAmerica,UnitedStatesofAmerica,165.027791
+United States of America,UnitedStatesofAmerica,165.027791
 Belgium,KoninkrijkBelgie,149.5607157
 Luxembourg,Letzebuerg,172.1529819
 Finland,Suomi,180.8092754
@@ -25,8 +25,8 @@ Kenya,JamhuriyaKenya,86.67243252
 Ethiopia,ኢትዮጵያ,69.0747686
 Ghana,Ghana,14.66820008
 France,Republiquefrancaise,155.7138765
-UnitedKingdom,UnitedKingdomofGreatBritainandNorthernIreland,159.2289569
-People'sRepublicofChina,中华人民共和国,104.923988
+United Kingdom,UnitedKingdomofGreatBritainandNorthernIreland,159.2289569
+People's Republic of China,中华人民共和国,104.923988
 Brazil,RepublicaFederativadoBrasil,105.932549
 Russia,Россия,100.5708005
 Germany,BundesrepublikDeutschland,177.5675559
@@ -35,16 +35,16 @@ Iceland,Island,179.500319
 Estonia,EestiVabariik,172.3077241
 Latvia,Latvija,148.3650186
 Ukraine,Україна,108.9843631
-CzechRepublic,Ceskarepublika,159.4677677
+Czech Republic,Ceskarepublika,159.4677677
 Slovakia,Slovenskarepublika,148.9316404
 Slovenia,Slovenija,167.8182557
 Moldova,RepublicaMoldova,113.8070778
 Romania,Romania,132.1925553
 Bulgaria,България,128.2140686
-NorthMacedonia,РепубликаСевернаМакедонија,108.8021087
+North Macedonia,РепубликаСевернаМакедонија,108.8021087
 Albania,RepublikaeShqiperise,97.76984817
 Croatia,RepublikaHrvatska,155.4682852
-BosniaandHerzegovina,BosnaiHercegovina,126.784491
+Bosnia and Herzegovina,BosnaiHercegovina,126.784491
 Azerbaijan,AzərbaycanRespublikası,101.4563516
 Cyprus,ΚυπριακήΔημοκρατία,147.161823
 Georgia,საქართველო,116.8943934
@@ -53,7 +53,7 @@ Malta,Malta,108.7784617
 Montenegro,ЦрнаГора/CrnaGora,132.8716612
 Cuba,RepublicadeCuba,87.44784811
 Indonesia,RepublikIndonesia,89.90425855
-SouthAfrica,Suid-Afrika,133.3919898
+South Africa,Suid-Afrika,133.3919898
 Algeria,الجمهوريةالجزائريةالديمقراطيةالشعبية,97.80132162
 Uzbekistan,Oʻzbekiston,118.3183488
 Chile,RepúblicadeChile,99.12947592
@@ -65,7 +65,7 @@ Australia,Australia,180.5304316
 Argentina,Argentina,104.3137395
 Peru,RepublicadelPeru,82.60683323
 Cambodia,កម្ពុជា,57.87718267
-NewZealand,Aotearoa,175.2133353
+New Zealand,Aotearoa,175.2133353
 India,RepublicofIndia,104.9272974
 Mongolia,МонголУлс,58.6268838
 Fiji,RepublicofFiji,102.2237028
@@ -75,15 +75,15 @@ Paraguay,RepublicadelParaguay,104.7434552
 Ecuador,RepublicadelEcuador,116.5599708
 Colombia,Colombia,103.1856642
 Bolivia,EstadoPlurinacionaldeBolivia,93.77113688
-TrinidadandTobago,TrinidadandTobago,90.40292862
+Trinidad and Tobago,TrinidadandTobago,90.40292862
 Jamaica,Jamaica,62.57309575
 Guatemala,Guatemala,99.18330638
-TheBahamas,CommonwealthoftheBahamas,117.0168897
-DominicanRepublic,RepúblicaDominicana,82.50962317
-ElSalvador,ElSalvador,79.77813894
+The Bahamas,CommonwealthoftheBahamas,117.0168897
+Dominican Republic,RepúblicaDominicana,82.50962317
+El Salvador,ElSalvador,79.77813894
 Iran,ایران,64.66626335
 Iraq,العراق,94.54016303
-CostaRica,RepublicadeCostaRica,121.1387391
+Costa Rica,RepublicadeCostaRica,121.1387391
 Israel,יִשְרָאֵל,144.7432666
 Panama,Panama,111.7559185
 Jordan,الأردن,113.0998229
@@ -95,22 +95,22 @@ Nepal,नेपाल,94.6407432
 Oman,سلطنةعُمان,170.6934525
 Pakistan,پاکستان,102.7251681
 Qatar,قطر,151.7374176
-SaudiArabia,المملكةالعربيةالسعودية,146.8203756
-SriLanka,ශ්‍රීලංකාප්‍රජාතාන්ත්‍රිකසමාජවාදීජනරජය,71.94506658
+Saudi Arabia,المملكةالعربيةالسعودية,146.8203756
+Sri Lanka,ශ්‍රීලංකාප්‍රජාතාන්ත්‍රිකසමාජවාදීජනරජය,71.94506658
 Syria,الجمهوريةالعربيةالسورية,26.10035585
 Taiwan,中華民國,140.5621263
 Thailand,ประเทศไทย,100.3951096
-UnitedArabEmirates,الإماراتالعربيةالمتحدة,158.4770624
+United Arab Emirates,الإماراتالعربيةالمتحدة,158.4770624
 Vietnam,ViệtNam,89.56495261
-SouthKorea,대한민국,124.2537641
+South Korea,대한민국,124.2537641
 Bangladesh,গণপ্রজাতন্ত্রীবাংলাদেশ,65.60726703
 Tanzania,JamhuriyaMuunganowaTanzania,71.7116704
 Philippines,RepublikangPilipinas,78.99703152
 Tunisia,تونس,113.9252437
 Zimbabwe,Zimbabwe,86.08825224
 Botswana,Botswana,96.87554213
-Coted'Ivoire,RepubliquedeCoted'Ivoire,24.3418011
+Cote d'Ivoire,RepubliquedeCoted'Ivoire,24.3418011
 Morocco,المغرب,106.0658287
 Nigeria,Nijeriya,53.08991126
-KingdomoftheNetherlands,KoninkrijkderNederlanden,182.5359019
-DanishRealm,KongerigetDanmark,188.635667
+Kingdom of the Netherlands,KoninkrijkderNederlanden,182.5359019
+Danish Realm,KongerigetDanmark,188.635667
