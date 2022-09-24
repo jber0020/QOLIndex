@@ -5,7 +5,7 @@
     "title": "Quality of Life Index",
     "projection": {"type": "equalEarth"},
     "data": {
-        "url": "MAP DATA HERE",
+        "url": "https://github.com/jber0020/QOLIndex/blob/06c5e312c1189090c2f95d9b71fb29ac30b114e8/data/ne_110m.json",
         "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
       },
       "transform": [
@@ -13,7 +13,7 @@
           "lookup": "properties.NAME",
           "from": {
             "data": {
-              "url": "https://github.com/jber0020/QOLIndex/blob/27880f8928c3f72edf9d43195eb9941f7095f442/data/countries_quality_of_life_index.18-10-2021.csv"
+              "url": "https://github.com/jber0020/QOLIndex/blob/fa79d184e3e6925435041432d66984a6956f236e/data/countries_quality_of_life_index.18-10-2021.csv"
             },
             "key": "Name",
             "fields": ["QualityOfLifeIndex"]
