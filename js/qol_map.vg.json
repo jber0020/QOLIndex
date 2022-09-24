@@ -25,7 +25,8 @@
       "encoding": {
         "color": {
           "field": "Quality of Life Index",
-          "type": "quantitative"
+          "type": "quantitative",
+          "scale": {"type": "linear"}
         },
         "tooltip": [
           {"field": "properties.NAME", "type": "nominal", "title": "Country"},
